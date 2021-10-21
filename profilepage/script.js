@@ -9,8 +9,7 @@ if(window.innerWidth <= 425){
 }
 
 window.addEventListener("resize", ()=>{
-    let temp = window.innerWidth;
-    if(temp <= 425){
+    if(window.innerWidth <= 425){
         dir = "translateX";
     }else{
         dir = "translateY";
